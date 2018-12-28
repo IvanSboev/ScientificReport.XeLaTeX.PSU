@@ -1,0 +1,18 @@
+\select@language {russian}
+\contentsline {section}{Введение}{4}
+\contentsline {section}{\numberline {1}Экспериментальное исследование тепловой конвекции}{5}
+\contentsline {subsection}{\numberline {1.1}Введение}{5}
+\contentsline {subsubsection}{\numberline {1.1.1}Формулы}{5}
+\select@language {russian}
+\select@language {russian}
+\select@language {english}
+\select@language {russian}
+\select@language {russian}
+\select@language {english}
+\select@language {russian}
+\select@language {russian}
+\select@language {russian}
+\select@language {russian}
+\select@language {russian}
+\select@language {russian}
+\contentsline {section}{Список литературы}{6}

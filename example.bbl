@@ -1,0 +1,70 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\selectlanguage{#1}\fi}
+\providecommand*{\href}[2]{{\small #2}}
+\providecommand*{\url}[1]{{\small #1}}
+\providecommand*{\BibUrl}[1]{\url{#1}}
+\providecommand{\BibAnnote}[1]{}
+\providecommand*{\BibEmph}[1]{#1}
+\ProvideTextCommandDefault{\cyrdash}{\iflanguage{russian}{\hbox
+  to.8em{--\hss--}}{\textemdash}}
+\providecommand*{\BibDash}{\ifdim\lastskip>0pt\unskip\nobreak\hskip.2em plus
+  0.1em\fi
+\cyrdash\hskip.2em plus 0.1em\ignorespaces}
+\renewcommand{\newblock}{\ignorespaces}
+
+\bibitem{Afanasyev92}
+\selectlanguageifdefined{russian}
+\BibEmph{Афанасьев~В.~В., Василевский~О.~Н.}
+  Расчеты электрических цепей на
+  программируемых микрокалькуляторах. \BibDash
+\newblock М.~: Энергоиздат, 1992. \BibDash
+\newblock 190~{с.}
+
+\bibitem{Ponomarenko86}
+\selectlanguageifdefined{russian}
+Основы создания гибких атоматизированных
+  производств~/ ~Л.~А.~Пономаренко,
+  ~Л.~В.~Адамович, ~В.~Т.~Музычук,
+  ~А.~Е.~Гридасов~; Под ред.\ ~Б.~Б.~Тимофеева.
+  \BibDash
+\newblock К.~: Технiка, 1986. \BibDash
+\newblock 144~{с.}
+
+\bibitem{rutherford}
+\selectlanguageifdefined{english}
+\BibEmph{Rutherford~Ernest}. LXXIX. The scattering of $\alpha$ and $\beta$
+  particles by matter and the structure of the atom~// \BibEmph{The London,
+  Edinburgh, and Dublin Philosophical Magazine and Journal of Science}.
+  \BibDash
+\newblock 1911. \BibDash
+\newblock Vol.~21, no. 125. \BibDash
+\newblock P.~669--688.
+
+\bibitem{Belousova81}
+\selectlanguageifdefined{russian}
+Системный анализ инфраструктуры как
+  элемент народного хозяйства~/
+  Н.~И.~Белоусова, Е.~И.~Вишняк, В.~Ю.~Левит и~др.
+  \BibDash
+\newblock М.~: Экономика, 1981. \BibDash
+\newblock 62~{с.}
+
+\bibitem{Belousova82}
+\selectlanguageifdefined{russian}
+Системный анализ инфраструктуры как
+  элемент народного хозяйства~/
+  Н.~И.~Белоусова, Е.~И.~Вишняк, В.~Ю.~Левит и~др.
+  \BibDash
+\newblock М.~: Экономика, 1981. \BibDash
+\newblock 62~{с.}
+
+\bibitem{dixit}
+\selectlanguageifdefined{english}
+\BibEmph{Dixit~Avinash~K., Pindyck~Robert~S.} The Options Approach to Capital
+  Investment~// \BibEmph{Harvard Business Review}. \BibDash
+\newblock 1995. \BibDash May-June. \BibDash
+\newblock P.~105--115.
+
+\end{thebibliography}
